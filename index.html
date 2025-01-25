@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003f5c;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar .logo img {
+  height: 40px;
+}
+
+.navbar .menu a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h1 {
+  color: #003f5c;
+  font-size: 90px;
+  margin-bottom: 10px;
+  font-family:cursive;
+
+}
+
+.text-content p {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.get-started {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.get-started:hover {
+  background-color: #0056b3;
+}
+
+.image-content img {
+  max-width: 1000PX;
+  height: 550PX;
+}
+</style>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Catalog</a>
+      <a href="#">Contact</a>
+      <a href="#">Sign Up</a>
+    </nav>
+  </header>
+  <main class="intro">
+    <div class="text-content">
+      <h1>SECURO</h1>
+      <h3>Together, we can make every turn, lane, and crossing a step closer to zero accidents.</h3>
+      <h3>Explore how you can contribute</h3>
+      <button class="get-started">Get Started</button>
+    </div>
+    <div class="image-content">
+      <img src="road saftey.png" alt="Children crossing the road" />
+    </div>
+  </main>
+</body>
+</html>
