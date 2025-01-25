@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">CATALOG</a>
+      <a href="#">CONTACT</a>
+      <a href="#">LOG IN</a>
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+<style>
+  /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #006d82;
+}
+
+header .logo img {
+  width: 50px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+header .hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+header .hamburger-menu span {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.signup-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #006d82;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-form label {
+  font-size: 14px;
+}
+
+.signup-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.signup-form input[type="email"],
+.signup-form input[type="text"],
+.signup-form input[type="password"] {
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.signup-form button {
+  background-color: #0b86a2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup-form button:hover {
+  background-color: #0d98ba;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+}
+
+.password-wrapper .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+}
+
+.password-wrapper .toggle-password:hover {
+  color: #0b86a2;
+}
+</style>
+  <main class="container">
+    <div class="signup-form">
+      <h2>SIGN UP</h2>
+      <form>
+        <label for="email">Mail id:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <div class="password-wrapper">
+          <input type="password" id="password" name="password" required>
+          <span class="toggle-password">&#128065;</span>
+        </div>
+        
+        <label for="confirm-password">Confirm password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        
+        <button type="submit">SIGN UP</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
