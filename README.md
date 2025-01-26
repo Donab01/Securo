@@ -25,10 +25,6 @@ Road safety is a growing concern due to unexpected hazards such as potholes, deb
 ### Tools used:
 Google Map API from Google Cloud with restrictions
 
-Implementation
-For Software:
-
-Installation
 ### Prerequisites
 Ensure you have the following installed on your system:
 1. **Python** (version 3.6 or above)
@@ -46,12 +42,7 @@ Ensure you have the following installed on your system:
    source venv/bin/activate  # For macOS/Linux
    venv\\Scripts\\activate   # For Windows
 
-
-
-
-
-
-  Run
+Run
   [commands]
 
 Project Documentation
@@ -86,6 +77,6 @@ Additional Demos
 [Add any extra demo materials/links]
 
 Team Contributions
-Ayoona Maria John: Backend
-Dona Babu: Design and Frontend
-Anna Yacob: Design and Frontend
+1. Ayoona Maria John: Backend
+2. Dona Babu: Design and Frontend
+3. Anna Yacob: Design and Frontend
