@@ -55,11 +55,11 @@ Run
  MongoDB will start and listen on `localhost:27017` by default.
 2. Run the application:
     ```bash
-    python app.py
+         
+         python app.py
           
-3. Access the application at:
-    ```bash
-         `http://127.0.0.1:5000`
+  3. Access the application at:
+    `http://127.0.0.1:5000`
 Project Documentation
 For Software:
 
