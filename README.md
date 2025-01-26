@@ -1,20 +1,20 @@
-### Securo
-Basic Details
-## Team Name: Zenith
-## Team Members
+# Securo
+
+### Team Name: Zenith
+### Team Members
 1. Ayoona Maria John - Muthoot Institute of Technology and Science
 2. Anna Yacob - Muthoot Institute of Technology and Science
 3. Dona Babu - Muthoot Institute of Technology and Science
 Hosted Project Link
 [mention your project hosted project link here]
 
-## Project Description:
+### Project Description:
 "Securo" is a collaborative app designed to enhance road safety by enabling users to report and share real-time hazards. For example, if anyone spots a dangerous pothole during his morning commute, he quickly reports it on the app by snapping a photo and tagging its location. The app alerts nearby drivers, helping them avoid accidents or damage.  Community members engage by verifying reports, earning recognition, and contributing to safer roads. "Securo" empowers individuals and fosters a safer, more accountable driving environment.
 
-## The Problem statement
+### The Problem statement
 Road safety is a growing concern due to unexpected hazards such as potholes, debris, and other obstacles that endanger drivers and disrupt traffic flow. These hazards often go unreported or take significant time to be addressed by authorities, leading to accidents and  vehicle damage. There is a lack of an efficient, community-driven system for real-time hazard reporting and alerting, which hinders proactive responses.The challenge lies in creating a seamless and accessible platform that empowers commuters to report hazards, alerts drivers in real-time, and ensures overall safety.
 
-## The Solution
+### The Solution
 "Securo" is like a neighborhood watch for bad roads. See a pothole? Snap it, tag it, and let the app do the magic. Drivers get instant "DANGER AHEAD!" alerts, the community rallies with upvotes, and lazy local authorities get a nudge to fix it. Bonus: Earn points and badges for saving lives and tires. Think Waze meets a road safety superhero—fewer accidents, smoother rides, happier drivers! 
 
 ### Technical Details
