@@ -17,11 +17,8 @@ The Problem statement
 The Solution
 [How are you solving it? Keep it fun!]
 
-Technical Details
-Technologies/Components Used
-For Software:
-
-Languages used:
+### Technical Details
+## Languages used:
 Frontend-HTML,CSS
 Backend-Python Flask
 Database-MongoDB
