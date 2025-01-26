@@ -1,4 +1,4 @@
-[Project Name] 🎯
+🎯
 Basic Details
 Team Name: [Name]
 Team Members
