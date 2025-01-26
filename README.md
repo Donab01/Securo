@@ -19,10 +19,10 @@ The Solution
 
 ### Technical Details
 ## Languages used:
-Frontend-HTML,CSS
-Backend-Python Flask
-Database-MongoDB
-[Tools used]:
+1. Frontend-HTML,CSS
+2. Backend-Python Flask
+3. Database-MongoDB
+## Tools used:
 Google Map API from Google Cloud with restrictions
 
 Implementation
