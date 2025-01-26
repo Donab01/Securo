@@ -1,7 +1,7 @@
 # Securo
 
 ### Team Name: Zenith
-### Team Members
+### Team Members:
 1. Ayoona Maria John - Muthoot Institute of Technology and Science
 2. Anna Yacob - Muthoot Institute of Technology and Science
 3. Dona Babu - Muthoot Institute of Technology and Science
@@ -42,17 +42,17 @@ Ensure you have the following installed on your system:
    cd <repository_name>
 2. Create and activate a virtual environment:
    ```bash
-python -m venv venv
-source venv/bin/activate  # For macOS/Linux
-venv\\Scripts\\activate   # For Windows
+   python -m venv venv
+   source venv/bin/activate  # For macOS/Linux
+   venv\\Scripts\\activate   # For Windows
 
 
 
 
 
 
-      Run
-     [commands]
+  Run
+  [commands]
 
 Project Documentation
 For Software:
