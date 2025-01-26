@@ -21,15 +21,12 @@ Technical Details
 Technologies/Components Used
 For Software:
 
-[Languages used]
-[Frameworks used]
-[Libraries used]
+Languages used:
+Frontend-HTML,CSS
+Backend-Python Flask
+Database-MongoDB
 [Tools used]
-For Hardware:
 
-[List main components]
-[List specifications]
-[List tools required]
 Implementation
 For Software:
 
@@ -76,6 +73,6 @@ Additional Demos
 [Add any extra demo materials/links]
 
 Team Contributions
-[Name 1]: [Specific contributions]
-[Name 2]: [Specific contributions]
-[Name 3]: [Specific contributions]
+Ayoona Maria John: Backend
+Dona Babu: Design and Frontend
+Anna Yacob: Design and Frontend
