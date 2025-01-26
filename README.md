@@ -25,13 +25,24 @@ Languages used:
 Frontend-HTML,CSS
 Backend-Python Flask
 Database-MongoDB
-[Tools used]
+[Tools used]:
+Google Map API from Google Cloud with restrictions
 
 Implementation
 For Software:
 
 Installation
-[commands]
+### Prerequisites
+Ensure you have the following installed on your system:
+1. **Python** (version 3.6 or above)
+2. **MongoDB** (latest stable version)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>
 
 Run
 [commands]
