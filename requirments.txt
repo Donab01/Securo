@@ -1,0 +1,4 @@
+flask
+mongodb
+bcrypt
+pymongo
