@@ -41,13 +41,16 @@ Ensure you have the following installed on your system:
    git clone <repository_url>
    cd <repository_name>
 2. Create and activate a virtual environment:
-
- ```bash
-
+   ```bash
 python -m venv venv
 source venv/bin/activate  # For macOS/Linux
 venv\\Scripts\\activate   # For Windows
-```bash
+
+
+
+
+
+
       Run
      [commands]
 
