@@ -5,8 +5,8 @@
 1. Ayoona Maria John - Muthoot Institute of Technology and Science
 2. Anna Yacob - Muthoot Institute of Technology and Science
 3. Dona Babu - Muthoot Institute of Technology and Science
- Hosted Project Link
- [mention your project hosted project link here]
+### Hosted Project Link:
+ (https://donab01.github.io/Securo/)
 
 ### Project Description:
 "Securo" is a collaborative app designed to enhance road safety by enabling users to report and share real-time hazards. For example, if anyone spots a dangerous pothole during his morning commute, he quickly reports it on the app by snapping a photo and tagging its location. The app alerts nearby drivers, helping them avoid accidents or damage.  Community members engage by verifying reports, earning recognition, and contributing to safer roads. "Securo" empowers individuals and fosters a safer, more accountable driving environment.
