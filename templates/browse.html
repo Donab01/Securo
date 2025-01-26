@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #004d66;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            height: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .main-content {
+            background-color: #fff;
+            margin: 50px auto;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .main-content button {
+            background-color: #ff9900;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .main-content p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .form-container input[type="file"],
+        .form-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Logo">
+        <div class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">CATALOG</a>
+            <a href="#">CONTACT</a>
+            <a href="#">SIGN UP</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="form-container">
+            <button id="get-location">Choose the location</button>
+            <input type="text" id="location-input" placeholder="Your location will appear here">
+            <input type="file" id="upload-picture" accept="image/*">
+            <p>Or drag and drop files here</p>
+            <button id="report" onclick="window.location.href='/map'">Report</button>
+        </div>
+    </div>
+
+    <script>
+        let geocoder;
+
+        function initMap() {
+            geocoder = new google.maps.Geocoder();
+        }
+
+        document.getElementById("get-location").addEventListener("click", () => {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        const currentLocation = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude,
+                        };
+                        alert(`Latitude: ${currentLocation.lat}, Longitude: ${currentLocation.lng}`);
+
+                        geocoder.geocode({ location: currentLocation }, (results, status) => {
+                            if (status === "OK" && results[0]) {
+                                const placeName = results[0].formatted_address;
+                                document.getElementById("location-input").value = placeName;
+                            } else {
+                                alert("Unable to retrieve location name. Try again.");
+                            }
+                        });
+                    },
+                    (error) => {
+                        alert("Error getting location. Please enable location services and try again.");
+                    }
+                );
+            } else {
+                alert("Geolocation is not supported by your browser.");
+            }
+        });
+
+        document.getElementById("report").addEventListener("click", () => {
+            const location = document.getElementById("location-input").value;
+            const picture = document.getElementById("upload-picture").files[0];
+
+            if (location && picture) {
+                alert(`Location: ${location}\nPicture: ${picture.name}`);
+            } else {
+                alert("Please provide both your location and a picture.");
+            }
+        });
+    </script>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJo3Z-xpy8zcIS9_Vr6DnYuJd8lPV8KL0&callback=initMap" async defer></script>
+</body>
+
+</html>
